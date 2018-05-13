@@ -1,0 +1,14 @@
+{
+  "name": "shopinglist",
+  "version": "1.0.0",
+  "description": "Shopping List desktop app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Wageeshwara Sudaththa Ranasinghe",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^2.0.0"
+  }
+}
