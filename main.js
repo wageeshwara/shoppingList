@@ -27,10 +27,14 @@ const {app,BrowserWindow,Menu} = electron;
  //handle Create add window 
  function createAddWindow(){
      //Create new window
-    mainWindow = new BrowserWindow({});
+     addWindow = new BrowserWindow({
+        width:'300',
+        height:'200',
+        title:'Add Shopping list'
+     });
     //Load html file into the window
-    mainWindow.loadURL(url.format({
-        pathname : path.join(__dirname,'index.html'),
+    addWindow.loadURL(url.format({
+        pathname : path.join(__dirname,'addWindow.html'),
         protocol: 'file',
         slashes:true
     }))
